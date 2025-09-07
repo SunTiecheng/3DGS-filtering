@@ -48,7 +48,7 @@ Please run the following script after deploying PCGv2:
 4. Delete duplicate voxels.
    
    ```
-   
+   python delete_repeat_voxel.py --input_dir /home/user/project/input --output_dir /home/user/project/output
    ```
 5. Use pretrained models to reconstruct each split point cloud (repc5 and repc4 need to be placed in the PCGv2 directory).
    
