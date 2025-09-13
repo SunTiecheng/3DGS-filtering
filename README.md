@@ -1,5 +1,10 @@
 # 3DGS-filtering
+Article：A Background Noise Removal Method for 3D Gaussian Point Clouds
+
+Abstract：Recently, the 3D Gaussian Splatting method has demonstrated outstanding visual performance in rendering tasks. Many object dataset for 3D reconstruction have black background. However, due to overfitting, background noise may appear after training 3D Gaussian with such images. To address this problem, we propose an encoder-decoder architecture to filter this kind of noise. In our method, we split the multiple attributes of 3D Gaussian into several groups. These groups are individually fed into the proposed encoder-decoder filter. Since the noise points are outliers of the 3D Gaussian point cloud, they are filtered out during the down-sampling process. Through this filtering principle, we filtered these attribute groups and obtained the 3D Gaussian primitives through attribute fusion. The proposed method can effectively remove the background noise, which significantly improves the overall visual quality of 3D Gaussian rendering. The code is available at: https://github.com/SunTiecheng/3DGS-filtering
+
 Reference project：[PCGv2](https://github.com/NJUVISION/PCGCv2)
+
 The pre-trained model used is: r7_0.4bpp.pth
 
 ## 1.Data Acquisition
