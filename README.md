@@ -6,7 +6,7 @@ Abstract：Recently, the 3D Gaussian Splatting method has demonstrated outstandi
 Reference project：[PCGv2](https://github.com/NJUVISION/PCGCv2)
 
 The pre-trained model used is: r7_0.4bpp.pth
-
+![pipeline](/picture/pipeline.jpg)
 ## 1.Data Acquisition
 
 ### 1.1 Dataset
@@ -119,7 +119,7 @@ Step: (Taking 3dgs as an example, other methods can replace the point cloud in t
    ```
    python metrics.py -m (The path of the subfile output in your output)
    ```
-
+![pipeline](/picture/table1.jpg)
 ## Comparative Experiment
 
 Input the noisy point cloud of 3dgs
@@ -173,7 +173,7 @@ Steps:
    ```
    python ascii201.py --binary_ply_path /path/to/input/binary.ply --ascii_ply_path /path/to/output/converted_ascii.ply
    ```
-
+![pipeline](/picture/compare.jpg)
 ## Pseudo color projection
 
 Used to test the correlation between data of the same type of attribute.
